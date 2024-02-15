@@ -18,7 +18,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule): void
     {
         // $schedule->command('inspire')->hourly();
-        $schedule->command('cronjob:run')->dailyAt('01:25');
+        $schedule->command('cronjob:run')->dailyAt('13:55');
         // $schedule->command('cronjob:run')->cron('* * * * *');
     }
 
